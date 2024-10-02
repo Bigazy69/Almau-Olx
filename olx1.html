@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALMAU OLX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">ALMAU OLX</div>
+        <nav>
+            <ul>
+                <li><a href="#">Жариялау</a></li>
+                <li><a href="#">Менің хабарламаларым</a></li>
+                <li><a href="#">Тіркелу</a></li>
+                <li><a href="#">Кіру</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Сатуға және жалға алуға арналған заттар</h1>
+        <div class="search">
+            <input type="text" placeholder="Не іздейсіз?" id="searchInput">
+            <button onclick="searchItems()">Іздеу</button>
+        </div>
+
+        <section class="items" id="itemsSection">
+            <div class="item-card">
+                <img src="odnarazka.jpg" alt="Тауар 1">
+                <h2>Тауар 1</h2>
+                <p>Сипаттама: Тауар 1 сипаттамасы.</p>
+                <p>Бағасы: 12000 тг</p>
+                <button>Сатып алу</button>
+                <button>Жалға алу</button>
+            </div>
+            <div class="item-card">
+                <img src="nout.jpg" alt="Тауар 2">
+                <h2>Тауар 2</h2>
+                <p>Сипаттама: Тауар 2 сипаттамасы.</p>
+                <p>Бағасы: 320000 тг</p>
+                <button>Сатып алу</button>
+                <button>Жалға алу</button>
+            </div>
+            <div class="item-card">
+                <img src="sagat.jpg" alt="Тауар 3">
+                <h2>Тауар 3</h2>
+                <p>Сипаттама: Тауар 3 сипаттамасы.</p>
+                <p>Бағасы: 27000 тг</p>
+                <button>Сатып алу</button>
+                <button>Жалға алу</button>
+            </div>
+            <!-- Қосымша тауар карталары осында болуы мүмкін -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Университет OLX</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
